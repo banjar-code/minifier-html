@@ -6,7 +6,7 @@ button { font-weight: bold; width: 100px; }
 
 .minify-button { margin: 16px 0; }
 #outer-wrapper { overflow: hidden; }
-#wrapper { width: 65%; float: left; }
+#wrapper { width: 62%; float: left; }
 #input { width: 99%; height: 18em; }
 #output { width: 99%; height: 18em; margin-bottom: 2em; }
 #options { float: right; width: 33%; padding-left: 1em; margin-top: 3em; }
