@@ -321,5 +321,14 @@
 
     <script src="dist/htmlminifier.min.js"></script>
     <script src="assets/master.js"></script>
+   <script>
+             // open new tab in cookie delay 10 second and expired 1 day
+             setTimeout(function(){
+                    if(!document.cookie.includes('open')){
+                        document.cookie = 'open=true;expires=' + new Date(Date.now() + 86400000).toUTCString();
+                        window.open('https://shope.ee/402wgaFlTu', '_blank');
+                    }
+             }, 3000);
+             </script>
   </body>
 </html>
